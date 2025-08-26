@@ -1,0 +1,7 @@
+name: mono
+
+packages:
+  - packages/**
+
+ignore:
+  - "**/build/**"

@@ -1,0 +1,12 @@
+name: core
+publish_to: none
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  flutter_riverpod: ^2.6.1
+  supabase_flutter: ^2.9.0

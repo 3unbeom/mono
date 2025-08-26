@@ -1,0 +1,25 @@
+name: auth
+publish_to: none
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  core:
+    path: ../../core
+
+  shared:
+    path: ../../shared
+
+  flutter_riverpod: ^2.6.1
+  supabase_flutter: ^2.9.1
+  
+  crypto: ^3.0.6
+  sign_in_with_apple: ^7.0.1
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_lints: ^6.0.0

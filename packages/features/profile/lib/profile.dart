@@ -1,0 +1,10 @@
+// Data
+export 'src/data/profile_repository_impl.dart';
+// Domain
+export 'src/domain/profile_entity.dart';
+export 'src/domain/profile_repository.dart';
+// Presentation
+export 'src/presentation/profile_provider.dart';
+export 'src/presentation/widgets/nickname_bottom_sheet.dart';
+export 'src/presentation/widgets/profile_image_bottom_sheet.dart';
+export 'src/presentation/widgets/profile_section.dart';

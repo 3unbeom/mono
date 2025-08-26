@@ -1,0 +1,22 @@
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Pub
+pubspec_overrides.yaml
+
+# Supabase
+.temp/
+
+# FVM Version Cache
+.fvm/
