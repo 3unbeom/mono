@@ -9,10 +9,14 @@ dependencies:
     sdk: flutter
 
   core:
-    path: ../../core
+    git:
+      url: https://github.com/3unbeom/mono.git
+      path: packages/core
 
   shared:
-    path: ../../shared
+    git:
+      url: https://github.com/3unbeom/mono.git
+      path: packages/shared
 
   flutter_riverpod: ^2.6.1
   supabase_flutter: ^2.9.1
