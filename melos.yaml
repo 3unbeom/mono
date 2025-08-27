@@ -2,6 +2,7 @@ name: mono
 
 packages:
   - packages/**
+  - apps/**
 
 ignore:
   - "**/build/**"

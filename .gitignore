@@ -20,3 +20,6 @@ pubspec_overrides.yaml
 
 # FVM Version Cache
 .fvm/
+
+# Apps
+apps/
