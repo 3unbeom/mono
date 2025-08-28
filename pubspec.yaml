@@ -2,7 +2,15 @@ name: mono
 publish_to: none
 
 environment:
-  sdk: ^3.8.0
+  sdk: ^3.9.0
+
+workspace:
+  - packages/core
+  - packages/shared
+  - packages/features/ads
+  - packages/features/auth
+  - packages/features/iap
+  - packages/features/profile
 
 dev_dependencies:
-  melos: ^6.3.2
+  melos: ^7.1.0
